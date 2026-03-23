@@ -1,4 +1,11 @@
 .venv
 venv/
 .idea
-mlproject.egg-info
+
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+__pycache__/
+*.pyc
