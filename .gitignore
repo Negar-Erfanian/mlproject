@@ -102,6 +102,7 @@ pytest_cache/
 
 data/
 datasets/
+artifacts
 
 # -----------------------------
 
