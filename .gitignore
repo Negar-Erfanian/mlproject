@@ -110,7 +110,7 @@ datasets/
 # -----------------------------
 
 models/
-*.pkl
+#*.pkl
 *.joblib
 *.h5
 *.pt
