@@ -23,7 +23,7 @@ mlproject/
 │    ├── model_trainer.py         # Trains and evaluates ML models
 │
 ├── templates/ # HTML templates for Flask UI
-├── app.py # Flask application entry point
+├── application.py # Flask application entry point
 ├── requirements.txt # Python dependencies
 ├── setup.py # Package configuration
 └── README.md # This file
@@ -80,7 +80,7 @@ The ML pipeline code is implemented in `src/pipeline/predict_pipeline.py`.
 
 Start the Flask server:
 ```bash
-python app.py
+python application.py
 ```
 Then visit:
 ```bash
