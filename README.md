@@ -10,13 +10,17 @@ This project can be used as a template for building and deploying ML models that
 ```
 mlproject/
 │
-├── artifacts/ # Saved models / preprocessors
-├── notebook/ # Exploratory notebooks
+├── artifacts/ # Saved models / preprocessors/ data
+├── notebook/ # EDA
 ├── src/
 │ ├── exception.py # Custom exception code
 │ ├── logger.py # Logging configuration
 │ └── pipeline/
-│ ├── predict_pipeline.py # Code for prediction pipeline
+│    ├── predict_pipeline.py # Code for prediction pipeline
+│ └── components/
+│    ├── data_ingestion.py        # Loads and ingests raw data
+│    ├── data_transformation.py   # Preprocesses and transforms data for modeling
+│    ├── model_trainer.py         # Trains and evaluates ML models
 │
 ├── templates/ # HTML templates for Flask UI
 ├── app.py # Flask application entry point
