@@ -84,8 +84,7 @@ http://localhost:PORTNUMBER/
 ```
 Use the form to enter feature values and get a prediction.
 
-## Deployment
-Azure Deployment
+## Azure Deployment
 Install Azure CLI and login:
 ```
 az login
