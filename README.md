@@ -6,7 +6,7 @@ This project can be used as a template for building and deploying ML models that
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 ```
 mlproject/
 │
