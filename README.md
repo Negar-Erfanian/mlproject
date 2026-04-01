@@ -63,9 +63,8 @@ The ML pipeline code is implemented in `src/pipeline/predict_pipeline.py`.
    ```
 
 2. Create and activate a Python environment:
-    ```bash
+```bash
   python3 ‑m venv venv
-  
   source venv/bin/activate
   ```
 3. Install dependencies:
