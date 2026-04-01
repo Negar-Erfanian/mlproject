@@ -60,15 +60,17 @@ The ML pipeline code is implemented in `src/pipeline/predict_pipeline.py`.
    ```bash
    git clone https://github.com/Negar‑Erfanian/mlproject.git
    cd mlproject
-```
+   ```
 
 2. Create and activate a Python environment:
-```bash
+   
+   ```bash
   python3 ‑m venv venv
   source venv/bin/activate
   ```
 
 3. Install dependencies:
+
   ```bash
   pip install ‑r requirements.txt
   ```
