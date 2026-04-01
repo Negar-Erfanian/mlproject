@@ -66,6 +66,7 @@ The ML pipeline code is implemented in `src/pipeline/predict_pipeline.py`.
    
    ```bash
   python3 ‑m venv venv
+  
   source venv/bin/activate
   ```
 
