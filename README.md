@@ -29,7 +29,7 @@ mlproject/
 
 ---
 
-## 🚀 Features
+## Features
 
 ✔ Builds a trained ML model and preprocessor  
 ✔ Includes modular code for training, evaluation, and prediction  
