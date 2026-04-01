@@ -70,3 +70,60 @@ The ML pipeline code is implemented in `src/pipeline/predict_pipeline.py`.
      ```bash
      pip install ‑r requirements.txt
      ```
+
+
+## Run the Web App Locally
+
+Start the Flask server:
+```bash
+python app.py
+```
+Then visit:
+```bash
+http://localhost:PORTNUMBER/
+```
+Use the form to enter feature values and get a prediction.
+
+## Deployment
+Azure Deployment
+Install Azure CLI and login:
+```
+az login
+```
+Create an Azure App Service:
+```
+az webapp up --name mlproject-app --resource-group <your-resource-group> --runtime "PYTHON|3.9"
+```
+Deploy your project:
+```
+git push azure main
+```
+Access your app at:
+```
+https://mlproject-app.azurewebsites.net
+```
+
+
+## AWS Deployment (Elastic Beanstalk)
+
+Install AWS CLI and EB CLI:
+```
+pip install awsebcli
+aws configure
+```
+
+Initialize Elastic Beanstalk:
+
+```
+eb init -p python-3.9 mlproject-app
+eb create mlproject-env
+```
+Deploy your Flask app:
+
+```
+eb deploy
+```
+Access your app at the provided Elastic Beanstalk URL:
+```
+http://mlproject-env.<region>.elasticbeanstalk.com
+```
