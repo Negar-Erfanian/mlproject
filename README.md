@@ -311,14 +311,7 @@ This project supports **both CI/CD strategies**:
 
 ---
 
-
-Here’s a **clean, README-ready Azure equivalent section**, structured similarly to your AWS part and consistent with your project style.
-
-You can paste this directly under a new section like `## Azure Deployment`.
-
----
-
-# ## Azure Deployment using CI/CD (GitHub Actions)
+## Azure Deployment using CI/CD (GitHub Actions)
 
 This project also supports deployment on **Microsoft Azure** using **GitHub Actions CI/CD**, enabling automated build and deployment of the Flask ML application to an Azure-hosted web service.
 
