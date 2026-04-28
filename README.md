@@ -80,7 +80,7 @@ The ML pipeline code is implemented in `src/pipeline/predict_pipeline.py`.
 
 Start the Flask server:
 ```bash
-python application.py
+python app.py
 ```
 Then visit:
 ```bash
